@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<title>eight-shapes-figures</title>
+
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+
+<style type="text/css">
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+
+
+
+
+
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">eight-shapes-figures</h1>
+
+
+
+<p>This vignette illustrates all the eight-like figures available in the
+<code>matRiks</code> package. To obtain the single figures to use for
+concatenating the figures, use the prefix <code>s_</code> before the
+command of the figure. For instance, to obtain a single vertical eight,
+use the command <code>s_vertical_eight()</code>.</p>
+<div style="display: flex;">
+<div>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+</div>
+<div>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+</div>
+</div>
+
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
