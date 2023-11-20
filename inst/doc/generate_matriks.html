@@ -252,15 +252,15 @@ an RMarkdown document (preferably in PDF) from the dialogue window.</p>
 <p>The YAML of the document should be modified to look like this:</p>
 <pre><code>---
 title: &quot;My matriks&quot;
-author: &quot;Me, myself, and I&quot;
-date: &quot;2023-10-30&quot;
+author: &quot;The author&quot;
+date: &quot;2023-11-16&quot;
 output:
   pdf_document:
     toc: yes
 ---</code></pre>
 <p>The YAML sets the title of the document (My matriks), the author
-(“Me, myself, and I”), the date, and other settings concerning the
-document. For instance, this YAML will generate a PDF document with a
+(“The author”), the date, and other settings concerning the document.
+For instance, this YAML will generate a PDF document with a
 <strong>T</strong>able <strong>o</strong>f
 <strong>C</strong>ontents.</p>
 <p>A setup chunk should be included to set the behavior of the code
@@ -303,18 +303,18 @@ draw(dist_m1, main = TRUE)
 <p><img src="data:image/png;base64,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" style="display: block; margin: auto;" /></p>
 <p>A warning has appeared since some type of distractors cannot be
 generated given the type of matriks and/or the rules used for its
-generation. In this case, since it is a single-laye matriks it is not
+generation. In this case, since it is a single-layer matriks it is not
 possible to generate the Incomplete Correlate-Incomplete distractors,
 which is also crossed with a thick black cross. The argument
 <code>main</code> set <code>TRUE</code> means that the names of the
 distractors are plotted as well.</p>
 <p>The user can also specific a selection of the response options to
 associate to the matriks. The selection should be a character vector and
-it must be specified through th argument <code>distractors</code> of the
-<code>draw()</code> function.</p>
+it must be specified through the argument <code>distractors</code> of
+the <code>draw()</code> function.</p>
 <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAElElEQVR4nO3c23LaQBAAUfn/fzoPJim7YtQzszsjgbtf0V44KAJExceHnXZcvYG7JxAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQ9CuAjqP+NH8D0HEsCP0CoONRcfTezdyvT5u60AjQEalx6Y+Ff2b3AerYydeJi2tMAMV8GoS+z1pbYwho00Hpdb9NWnoZBoBiu9p+Cv2kURDqB4ruabPQzxb5k2gEaPOBsbmeTJcVageK72fjKXSmkBSaAGo4FCc6mypF1A2U2sseIX7+GaEBoKaDTybBaRLX6mag5L/3daHoUw8L9QKl31NXhRJnRlRyaT+BXTQP+G947pLHB7cCFT63rgilP+KELlfl7cR2MDDky9DK6wFDOoEqp0P5FCp9E418JCjtJrz60KCVG2IwsBGotuX6qOpNZ/jYXZs1uPLUsMZrex/Qyjk/tFRkfBvQ2jmfHlFbKrBiJ9DY0A1n0PPHViY+X3PpA016RHUxGt4INDh4DeiKi/TaSZ8evbzcyYP1ectrNgx/NaDO991nA5oWawFavq0zeiPpgq8ayz75KV4KaP0EKp1CPSs1AY1PsvTB/fTh2qy05PgZVH9VLgC64hpUXpNeiTd5F1sCOn+8NGtg1dnPQUt3V84fr0y6vmzD8NqSV92THv4u9hhUWwoOKEy6ZeHtg8s3s+GA/JzRhQfvB/0d1rDUW9xRrA/jMW9xT7o+7kKg0ef5b+T+td7jd7HqyMCIXqCxN6Pi0GuBRn+bL42NiDYDVa6ao0B8THUzuzawPqQ++A5A+YvC3FeU0OGtQNO/ACaHh45uBxr7ceIxfvfRvUDJZ7x8oy01QezgZqDca7p+qzYJFDmqvpnoLsJLbLjZ/3pAmS3P/hgSPHQCKLjGhhMogxw8sh0ovuUdPi8KFNvJLqDYLOFtLW0nVPDtdIvP5zzBYvPt2BStEQTatdgrAu3b8K7FwlfGLbuiReZ8tncfoImNFLrrvm6TQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQFD/X6BK1rqfQrcDupuQQNB7/RW8hgSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEggSCBIIEgtqB0rVuKJ9AUPN+Xt7H/9RLCQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBAkECQQJBP0B7r084u896uUAAAAASUVORK5CYII=" style="display: block; margin: auto;" />
 ## matriks 2</p>
-<p>This code creates a multi-layer matriks with three layers. DIfferent
+<p>This code creates a multi-layer matriks with three layers. Different
 rules are used to manipulate different objects in each layer.</p>
 <pre><code>```{r}
 m1 &lt;- mat_apply(cof(square(), pentagon(), hexagon()), 

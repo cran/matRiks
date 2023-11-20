@@ -1,6 +1,7 @@
-9f7966bb24533e44cc14abf8ccad148c *DESCRIPTION
+3adad04c164046e2f277d4abaf99d6f1 *DESCRIPTION
 419876e7f1bb1f0a72e8eb96bf9dc495 *LICENSE
 7df30f15da33a3491db672a85639fa33 *NAMESPACE
+eedd4d11f74cc97c6d64c10d4b78f2bb *NEWS.md
 f930133eb8b3bf659c475ef3a1ee8ee9 *R/black_figures.R
 59d52b5762bbbdcf17d7f4402be34942 *R/change_color.R
 f97fbf3eb3593b9dc3bb7716295b4ef9 *R/circle_arc.R
@@ -21,14 +22,14 @@ a983ce5895983a79a6aba883b2f5aea1 *R/ic_inc.R
 a92a0d182f5ddb4eebe99b2f5c29632b *R/lines.R
 7c25c5b9f47651a5d35cc7b1b11c7f57 *R/mat_apply.R
 166b44e992c64f66cafe4726cd8558a5 *R/modify.R
-75a539709881d556c62e01bfefe0bd45 *R/other_figures.R
+2cffb7cfcf66096675454c44461a5ef6 *R/other_figures.R
 64ebe0bc1f0aacf954409431adda25d8 *R/repetition.R
 46ba7e864da1aeb2f1093e4558656a47 *R/response_list.R
-9e4b87a344bb4ccbd206c4114416a320 *R/rules.R
+250b09d2abb2165e395f920fd17625ac *R/rules.R
 e4825a988c1403e22a4a27a032d0e3b3 *R/s_shapes.R
 2406778cc748f5091b55b66dc74bf7bb *R/split.R
 19c205ae60fe454c0a02c69cd722a6f7 *R/wp.R
-698a8d28fb798f99f36f012b5fcc45fa *README.md
+ecabb9011b3fe16bd77a00d6ed3736b7 *README.md
 2eca6b68ebcb9f0e408c96c5d188fa18 *build/vignette.rds
 68945466b17b57e621305ef988932386 *inst/doc/black-figures.R
 1636b57e4e8cb550cc2455c3ef366a64 *inst/doc/black-figures.Rmd
@@ -46,8 +47,8 @@ ed798c8ae7117e7fabf28179c036ba0b *inst/doc/closed-figures.html
 aa1e49513fd394d58d5588665e93bae7 *inst/doc/flowers-figures.Rmd
 00cd91c4e9493377d3c94c9cd135211a *inst/doc/flowers-figures.html
 b696fb721a7952725bad7dde15f4d2e9 *inst/doc/generate_matriks.R
-6fd7d25bd84d9d7d3d27c3d80ef22918 *inst/doc/generate_matriks.Rmd
-aa0961bae0d97cac9876b77a41f68aff *inst/doc/generate_matriks.html
+b7f9da8d4362b398454dcf5e1d37b4ec *inst/doc/generate_matriks.Rmd
+2b91fae1940d654769ce2aac1ace680e *inst/doc/generate_matriks.html
 1780f2128e72064e59cd76bb75e14007 *inst/doc/lines.R
 c05afdc8eb68f576809ba7df84795da4 *inst/doc/lines.Rmd
 6386d40b44029dd8a26c41930b28a575 *inst/doc/lines.html
@@ -143,6 +144,6 @@ cb58756a1aea4cd3a73e4dc8c8617f11 *tests/testthat/test-wp.R
 0a0fbd08eb5cb9cb4f74104a3669fb87 *vignettes/closed-figures.Rmd
 37b69bd59eed0af66773880bde9e02d5 *vignettes/eight-shapes-figures.Rmd
 aa1e49513fd394d58d5588665e93bae7 *vignettes/flowers-figures.Rmd
-6fd7d25bd84d9d7d3d27c3d80ef22918 *vignettes/generate_matriks.Rmd
+b7f9da8d4362b398454dcf5e1d37b4ec *vignettes/generate_matriks.Rmd
 c05afdc8eb68f576809ba7df84795da4 *vignettes/lines.Rmd
 cebb4417bb1c17e64d9eedb93af10491 *vignettes/other-figures.Rmd
