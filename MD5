@@ -1,7 +1,7 @@
-87a9dd1a38d31e1595fea3bfe91b1dde *DESCRIPTION
+c5c7be5b4edb731fd73f0f715ea67c3f *DESCRIPTION
 419876e7f1bb1f0a72e8eb96bf9dc495 *LICENSE
-7df30f15da33a3491db672a85639fa33 *NAMESPACE
-5a1d4026038c1ea6a29e5613e60b228d *NEWS.md
+008dde453f553f55844b43efc5015735 *NAMESPACE
+71c1aa1ea5f6407971bd46715c4f6bd9 *NEWS.md
 f930133eb8b3bf659c475ef3a1ee8ee9 *R/black_figures.R
 59d52b5762bbbdcf17d7f4402be34942 *R/change_color.R
 f97fbf3eb3593b9dc3bb7716295b4ef9 *R/circle_arc.R
@@ -25,9 +25,9 @@ a92a0d182f5ddb4eebe99b2f5c29632b *R/lines.R
 2cffb7cfcf66096675454c44461a5ef6 *R/other_figures.R
 64ebe0bc1f0aacf954409431adda25d8 *R/repetition.R
 46ba7e864da1aeb2f1093e4558656a47 *R/response_list.R
-250b09d2abb2165e395f920fd17625ac *R/rules.R
+1ef91f5977f1bba20bc1e75b507ac8da *R/rules.R
 e4825a988c1403e22a4a27a032d0e3b3 *R/s_shapes.R
-2406778cc748f5091b55b66dc74bf7bb *R/split.R
+e7b3fc31070bb02e2fe200795f04f3a7 *R/split.R
 19c205ae60fe454c0a02c69cd722a6f7 *R/wp.R
 ecabb9011b3fe16bd77a00d6ed3736b7 *README.md
 e30f7c4439274c1a9547be58260a3b9a *build/vignette.rds
@@ -48,7 +48,7 @@ aa1e49513fd394d58d5588665e93bae7 *inst/doc/flowers-figures.Rmd
 00cd91c4e9493377d3c94c9cd135211a *inst/doc/flowers-figures.html
 b696fb721a7952725bad7dde15f4d2e9 *inst/doc/generate_matriks.R
 b7f9da8d4362b398454dcf5e1d37b4ec *inst/doc/generate_matriks.Rmd
-81522abbdd7cc3ade3392078a6cfb99a *inst/doc/generate_matriks.html
+52b5e9a3259938516e016f9532ccb0f5 *inst/doc/generate_matriks.html
 1780f2128e72064e59cd76bb75e14007 *inst/doc/lines.R
 c05afdc8eb68f576809ba7df84795da4 *inst/doc/lines.Rmd
 6386d40b44029dd8a26c41930b28a575 *inst/doc/lines.html
@@ -60,7 +60,7 @@ cc98321f0fd735a5cc9fa409ebed01dd *inst/doc/other-figures.html
 af0bd130737885fe44de5c45167d5602 *man/change_color.Rd
 6525583c100ba00c0c6734ecc1c2203a *man/circle.Rd
 1e197801e41608f857cc589f733f2f9a *man/cof.Rd
-3b0fba874356aa16d06c14d3b5ea8350 *man/correct.Rd
+fc2f2a564ab3f04562aad81dc88ad77c *man/correct.Rd
 30407ae9c648ec496f642048690b762d *man/cross.Rd
 d2a19b2e7ee1514cea9e52b62d019e60 *man/decof.Rd
 00d67ae0194e4a5ac6e7c62fc30edb57 *man/dice.Rd
@@ -89,7 +89,6 @@ a9f14185d9c8e5805e10a72eb994bfbc *man/pacman.Rd
 309ee832be8932c73470adc8fede1a2d *man/pentagon.Rd
 bc890deff45e26ca051acb1dd187e2cd *man/phantom.Rd
 214d234f4baa53876dba20fec2dff7b5 *man/pizza_4.Rd
-37d1e800c4793bc92fcb745126178c82 *man/reflect.Rd
 c1c6afb85c118fc2dc7e1d276042dacf *man/repetition.Rd
 67ffaf1cc703b5a5fd726b55d2406859 *man/replace.Rd
 b71276bbe5b4c225c6c94ce8f5ab4d65 *man/response_list.Rd
@@ -135,7 +134,7 @@ ca67a4e8424d89c17b9fafc28f82b867 *tests/testthat/test-modify.R
 164fe7008f557e7d3184e8357077cc85 *tests/testthat/test-other_figures.R
 0edbdfacff0a878b5af798121aa1e220 *tests/testthat/test-repetition.R
 c720e0cec4ed1fed80c5e214e4f138fa *tests/testthat/test-response_list.R
-a1fad779a5cad4f4f0bbe00cc75bd383 *tests/testthat/test-rules.R
+a30a52cbd63c531b64aba89483d065f3 *tests/testthat/test-rules.R
 91aadbf2fb2f71d45c0924348f95412d *tests/testthat/test-s_shapes.R
 507d0df9b04c5dfa8f02e8c277f76b19 *tests/testthat/test-split.R
 cb58756a1aea4cd3a73e4dc8c8617f11 *tests/testthat/test-wp.R
