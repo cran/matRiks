@@ -54,3 +54,10 @@ draw(dist_m, distractors = c("correct", "r_top", "r_diag",
                              "wp_copy", "wp_matrix", "ic_inc", "ic_flip", 
                              "ic_neg"))
 
+## -----------------------------------------------------------------------------
+draw(dist_m, distractors = c("correct", "r_top", "r_diag",  
+                             "wp_copy", "wp_matrix", "ic_inc", "ic_flip", 
+                             "ic_neg"), 
+     labels = 1:8,
+     main = TRUE)
+
