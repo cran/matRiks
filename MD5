@@ -1,7 +1,7 @@
-057fdf0ef8ba7ef4af4621e953025d7f *DESCRIPTION
+17f6d9e8a0029696d9131682a63479ce *DESCRIPTION
 419876e7f1bb1f0a72e8eb96bf9dc495 *LICENSE
 008dde453f553f55844b43efc5015735 *NAMESPACE
-fc1e20320ce10d435676f88639ceb4bd *NEWS.md
+9554e9b132eca38f403a2c34c5a43b31 *NEWS.md
 f930133eb8b3bf659c475ef3a1ee8ee9 *R/black_figures.R
 59d52b5762bbbdcf17d7f4402be34942 *R/change_color.R
 f97fbf3eb3593b9dc3bb7716295b4ef9 *R/circle_arc.R
@@ -11,7 +11,7 @@ e7e94503db59fe27e947011ddb2eae63 *R/closed_figures.R
 edcbd746c938e6d7cd7cda58d7c5c216 *R/concatenation.R
 45d39c1a0ecbca756832c8c717e295fe *R/decof.R
 7e6180bf5dba82df8b3e91549a3d3ad1 *R/difference.R
-cd34ad9d619b22b13a8eb3c97ef2884c *R/draw.R
+7753f3727a3a62e59be1d09833d516a4 *R/draw.R
 0bdb802c686faa24c6ca56d3fb2cf73a *R/eight_shapes_figures.R
 10d37ae61a56f4239d441a9e9ab9bc0d *R/flowers_figures.R
 a0074ef998cdd3fc62abcfc8886d9e5b *R/ic.R
@@ -49,7 +49,7 @@ aa1e49513fd394d58d5588665e93bae7 *inst/doc/flowers-figures.Rmd
 4e315cb4a93db518c76652d6137a9b50 *inst/doc/flowers-figures.html
 e6ee7713600bb87415a108630e5a96c0 *inst/doc/generate_matriks.R
 2b32e5cb4f8e7e5d6d24f3e2f56e356a *inst/doc/generate_matriks.Rmd
-265dd1af86811b3151675cfd72ed5568 *inst/doc/generate_matriks.html
+e55a1886bf709132a52e76fa795ec108 *inst/doc/generate_matriks.html
 1780f2128e72064e59cd76bb75e14007 *inst/doc/lines.R
 c05afdc8eb68f576809ba7df84795da4 *inst/doc/lines.Rmd
 9270fa02860cd95d26ff6eea1034f0b4 *inst/doc/lines.html
@@ -67,7 +67,7 @@ d2a19b2e7ee1514cea9e52b62d019e60 *man/decof.Rd
 00d67ae0194e4a5ac6e7c62fc30edb57 *man/dice.Rd
 9f42ddba404348d83d96b14bfbddebcc *man/difference.Rd
 80537ace9b0a3742d518a33a975b1665 *man/dot.Rd
-d9b2705038b083240cbce42157386c81 *man/draw.Rd
+8c5435abab9257f52c86fb16068468c8 *man/draw.Rd
 2d26d9962f5219b5b4f1109e9a0e46b8 *man/ellipse.Rd
 02ade5b2b0ec2546b0a9d80778694e55 *man/figures/README-matriks-1.png
 3cccf4bf4be492da1154bf13d47e8058 *man/figures/README-responses-1.png

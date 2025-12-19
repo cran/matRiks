@@ -2,6 +2,6 @@
 
 * Added a `NEWS.md` file to track changes to the package.
 
-We added a feature that allows for changing the labels of the distractors
+New argument in draw.responses to allows the users to define the dimensions of the array within which the response options are shown
 
-We added the citation of the article associated to this package
+Minor fix on draw.responses 
